@@ -12,10 +12,11 @@ const middle = function(array) {
     arrays.push(array[midIndexEven]);
     arrays.push(array[midIndex]);
   }
+  //console.log(arrays);
   return arrays;
 };
 
-
+//middle([1, 2]);
 
 
 

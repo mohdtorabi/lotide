@@ -1,12 +1,11 @@
 
 const tail = function(array) {
   let tailArray = [];
-  for (let i = 1; i < array.length; i++) {
-    tailArray.push(array[i]);
-  }
+  
+  tailArray = array.slice(-1)[0];
+  
   return tailArray;
 };
-
 
 
 
