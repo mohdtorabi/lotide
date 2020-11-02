@@ -28,10 +28,10 @@ const flatten = function(array) {
         result.push(array[i][j]);
       }
     } else {
-      result.push (array[i]);
+      result.push(array[i]);
     }
   }
   return result;
 };
-assertArraysEqual(flatten([1, 2, [3, 4], 5, [6]]), [ 1, 2, 3, 4, 5, 6 ])
-console.log (flatten([1, 2, [3, 4], 5, [6]]))
+assertArraysEqual(flatten([1, 2, [3, 4], 5, [6]]), [ 1, 2, 3, 4, 5, 6 ]);
+console.log(flatten([1, 2, [3, 4], 5, [6]]));

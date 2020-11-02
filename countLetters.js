@@ -21,6 +21,6 @@ const countLetters = function(sentence) {
   return answer;
 };
 
-const name = countLetters ("lighthouse in the house");
+const name = countLetters("lighthouse in the house");
 console.log(countLetters("lighthouse in the house"));
 assertEqual(name["l"], 2);

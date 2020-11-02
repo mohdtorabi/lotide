@@ -24,7 +24,6 @@ const letterPositions = function(sentence) {
   
   for (let i = 0; i < sentence.length; i++) {
     const letter = sentence[i];
-    
     if (i !== " ") {
       if (!Array.isArray(results[letter])) {
         results[letter] = [i];
