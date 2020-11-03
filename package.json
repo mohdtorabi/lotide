@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@mohdtorabi/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "lotide project",
   "main": "",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/mohdtorabi/lotide.git"
   },
-  "author": "",
+  "author": "Mohdammad Torabi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mohdtorabi/lotide/issues"
